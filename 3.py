@@ -27,6 +27,9 @@ learn_inf = load_learner(model_path)
 st.title("Image Classification App")
 st.write("Upload an image and the app will predict the corresponding label.")
 
+st.title("Image Classification App")
+st.write("Upload an image and the app will predict the corresponding label.")
+
 # Allow the user to upload an image
 uploaded_file = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg"])
 if not uploaded_file:
